@@ -1,13 +1,17 @@
 import Header from "./Components/Header"
+import Section from "./Components/Section"
 
 
 function App() {
  
 
   return (
-    <>
-      <Header/>
-    </>
+    <div className="flex flex-col h-screen">
+      <Header  />
+      <Section/>
+    </div>
+      
+    
   )
 }
 
